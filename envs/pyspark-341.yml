@@ -1,4 +1,4 @@
-name: pyspark-332
+name: pyspark-341
 channels:
   - conda-forge
   - defaults
@@ -9,12 +9,9 @@ dependencies:
   - jupyterlab_code_formatter
   - isort
   - black
-  - pytest
-  - pyspark=3.3.2
+  - pyspark=3.4.1
   - pip
   - pip:
     - quinn
     - chispa
     - ceja
-    - mack
-    - farsante
