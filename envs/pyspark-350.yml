@@ -1,0 +1,17 @@
+name: pyspark-350
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - ipykernel
+  - jupyterlab
+  - jupyterlab_code_formatter
+  - isort
+  - black
+  - pyspark=3.5.0
+  - pip
+  - pip:
+    - quinn
+    - chispa
+    - ceja
