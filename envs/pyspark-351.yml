@@ -1,4 +1,4 @@
-name: pyspark-350
+name: pyspark-351
 channels:
   - conda-forge
   - defaults
@@ -9,9 +9,8 @@ dependencies:
   - jupyterlab_code_formatter
   - isort
   - black
-  - pyspark=3.5.0
+  - pyspark=3.5.1
   - pandas
-  - numpy<2.0
   - pip
   - pip:
     - quinn
